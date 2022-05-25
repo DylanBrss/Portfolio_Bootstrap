@@ -1,0 +1,76 @@
+$font-family_1: 'Macondo', cursive;
+
+/* Background color */
+$background-color_1: #003049;
+
+/* Color */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+    body {
+        background: linear-gradient(to right, #83a4d4, #b6fbff);
+        //background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+
+        header {
+
+            nav {
+                background: linear-gradient(to right, #83a4d4, #b6fbff);
+
+                #navTitle {
+                    font-family: $font-family_1;
+                }
+
+                .offcanvas {
+                    background-color: #b6fbff;
+
+                    .offcanvas-header {
+                        h5 {
+                            font-family: $font-family_1;
+                        }
+                    }
+
+                    .offcanvas-body {
+
+                        a {
+                            color: #045;
+                            transition: transform .1s;
+
+                            &:hover {
+                                color: #000;
+                                transform: scale(1.1);
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+        #projets {
+            img {
+                height: 300px;
+            }
+        }
+
+        footer {
+            #contact {
+                #git {
+                    fill: #000;
+                }
+
+                #in {
+                    fill: #0077b5;
+                }
+
+                #twitter {
+                    fill: #1DA1F2;
+                }
+            }
+        }
+    }
+}

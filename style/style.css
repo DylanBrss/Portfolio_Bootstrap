@@ -1,1 +1,59 @@
-/* No CSS *//*# sourceMappingURL=sty.css.map */
+/* Background color */
+/* Color */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+* body {
+  background: -webkit-gradient(linear, left top, right top, from(#83a4d4), to(#b6fbff));
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+
+* body header nav {
+  background: -webkit-gradient(linear, left top, right top, from(#83a4d4), to(#b6fbff));
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+
+* body header nav #navTitle {
+  font-family: "Macondo", cursive;
+}
+
+* body header nav .offcanvas {
+  background-color: #b6fbff;
+}
+
+* body header nav .offcanvas .offcanvas-header h5 {
+  font-family: "Macondo", cursive;
+}
+
+* body header nav .offcanvas .offcanvas-body a {
+  color: #045;
+  -webkit-transition: -webkit-transform .1s;
+  transition: -webkit-transform .1s;
+  transition: transform .1s;
+  transition: transform .1s, -webkit-transform .1s;
+}
+
+* body header nav .offcanvas .offcanvas-body a:hover {
+  color: #000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* body #projets img {
+  height: 300px;
+}
+
+* body footer #contact #git {
+  fill: #000;
+}
+
+* body footer #contact #in {
+  fill: #0077b5;
+}
+
+* body footer #contact #twitter {
+  fill: #1DA1F2;
+}
+/*# sourceMappingURL=style.css.map */
