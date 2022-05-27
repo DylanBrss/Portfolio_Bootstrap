@@ -5,27 +5,42 @@ $background-color_1: #003049;
 
 /* Color */
 
-
-
 * {
     padding: 0;
     margin: 0;
 
     body {
-        background: linear-gradient(to right, #83a4d4, #b6fbff);
-        //background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+
+        h2 {
+            color: #000;
+            font-size: 250%;
+            font-family: $font-family_1;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 30px;
+
+            &:after {
+                display: block;
+                height: 2px;
+                background-color: yellow;
+                width: 100px;
+                content: " ";
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+        }
 
         header {
 
             nav {
-                background: linear-gradient(to right, #83a4d4, #b6fbff);
+                background-color: #fff;
 
                 #navTitle {
                     font-family: $font-family_1;
                 }
 
                 .offcanvas {
-                    background-color: #b6fbff;
+                    background-color: #fff;
 
                     .offcanvas-header {
                         h5 {
@@ -51,24 +66,60 @@ $background-color_1: #003049;
             }
         }
 
+        #presentation {
+            background-color: #045;
+            padding-top: 200px;
+            padding-bottom: 200px;
+        }
+
         #projets {
             img {
                 height: 300px;
             }
+
+            .btn {
+                background-color: #fff;
+                color: #045;
+
+                &:hover {
+                    background-color: #045;
+                    color: #fff;
+                }
+            }
         }
 
         footer {
+            background-color: #045;
+
             #contact {
-                #git {
-                    fill: #000;
-                }
+                a {
+                    text-decoration: none;
+                    #git {
+                        fill: #fff;
+                        transform: transition 2s;
 
-                #in {
-                    fill: #0077b5;
-                }
+                        &:hover {
+                            transform: scale(1.5);
+                        }
+                    }
 
-                #twitter {
-                    fill: #1DA1F2;
+                    #in {
+                        fill: #fff;
+                        transform: transition 2s;
+
+                        &:hover {
+                            transform: scale(1.5);
+                        }
+                    }
+
+                    #twitter {
+                        fill: #fff;
+                        transform: transition 2s;
+
+                        &:hover {
+                            transform: scale(1.5);
+                        }
+                    }
                 }
             }
         }

@@ -5,14 +5,27 @@
   margin: 0;
 }
 
-* body {
-  background: -webkit-gradient(linear, left top, right top, from(#83a4d4), to(#b6fbff));
-  background: linear-gradient(to right, #83a4d4, #b6fbff);
+* body h2 {
+  color: #000;
+  font-size: 250%;
+  font-family: "Macondo", cursive;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+* body h2:after {
+  display: block;
+  height: 2px;
+  background-color: yellow;
+  width: 100px;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 * body header nav {
-  background: -webkit-gradient(linear, left top, right top, from(#83a4d4), to(#b6fbff));
-  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  background-color: #fff;
 }
 
 * body header nav #navTitle {
@@ -20,7 +33,7 @@
 }
 
 * body header nav .offcanvas {
-  background-color: #b6fbff;
+  background-color: #fff;
 }
 
 * body header nav .offcanvas .offcanvas-header h5 {
@@ -41,19 +54,64 @@
           transform: scale(1.1);
 }
 
+* body #presentation {
+  background-color: #045;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 * body #projets img {
   height: 300px;
 }
 
-* body footer #contact #git {
-  fill: #000;
+* body #projets .btn {
+  background-color: #fff;
+  color: #045;
 }
 
-* body footer #contact #in {
-  fill: #0077b5;
+* body #projets .btn:hover {
+  background-color: #045;
+  color: #fff;
 }
 
-* body footer #contact #twitter {
-  fill: #1DA1F2;
+* body footer {
+  background-color: #045;
+}
+
+* body footer #contact a {
+  text-decoration: none;
+}
+
+* body footer #contact a #git {
+  fill: #fff;
+  -webkit-transform: transition 2s;
+          transform: transition 2s;
+}
+
+* body footer #contact a #git:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+* body footer #contact a #in {
+  fill: #fff;
+  -webkit-transform: transition 2s;
+          transform: transition 2s;
+}
+
+* body footer #contact a #in:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+* body footer #contact a #twitter {
+  fill: #fff;
+  -webkit-transform: transition 2s;
+          transform: transition 2s;
+}
+
+* body footer #contact a #twitter:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 /*# sourceMappingURL=style.css.map */
