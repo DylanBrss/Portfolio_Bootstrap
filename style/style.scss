@@ -30,6 +30,7 @@ $background-color_1: #003049;
             }
         }
 
+        /* ========== HEADER ========== */
         header {
 
             nav {
@@ -66,12 +67,14 @@ $background-color_1: #003049;
             }
         }
 
+        /* ========== Presentation ========== */
         #presentation {
             background-color: #045;
             padding-top: 200px;
             padding-bottom: 200px;
         }
 
+        /* ========== Projet ========== */
         #projets {
             img {
                 height: 300px;
@@ -87,7 +90,20 @@ $background-color_1: #003049;
                 }
             }
         }
+        /* ========== Contact ========== */
+        #contact{
+            button{
+                background-color: #045;
+            }
+            a{
+                text-decoration: none;
+            }
+            svg{
+                fill : #045;
+            }
+        }
 
+        /* ========== FOOTER ========== */
         footer {
             background-color: #045;
 

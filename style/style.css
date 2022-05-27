@@ -5,6 +5,14 @@
   margin: 0;
 }
 
+* body {
+  /* ========== HEADER ========== */
+  /* ========== Presentation ========== */
+  /* ========== Projet ========== */
+  /* ========== Contact ========== */
+  /* ========== FOOTER ========== */
+}
+
 * body h2 {
   color: #000;
   font-size: 250%;
@@ -72,6 +80,18 @@
 * body #projets .btn:hover {
   background-color: #045;
   color: #fff;
+}
+
+* body #contact button {
+  background-color: #045;
+}
+
+* body #contact a {
+  text-decoration: none;
+}
+
+* body #contact svg {
+  fill: #045;
 }
 
 * body footer {
