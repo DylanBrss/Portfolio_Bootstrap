@@ -80,7 +80,7 @@ $background-color_1: #003049;
                 border-radius: 10px;
 
                 &:hover {
-                    background-color: #fff;
+                    background-color: #fff; 
                     color: #045;
                 }
             }
@@ -91,6 +91,13 @@ $background-color_1: #003049;
             background-color: #045;
             padding-top: 200px;
             padding-bottom: 200px;
+        }
+
+        /* ========== Technologie ========== */
+        #technologie {
+            img {
+                height: 300px;
+            }
         }
 
         /* ========== Projet ========== */

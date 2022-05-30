@@ -9,6 +9,7 @@
   /* ========== HEADER ========== */
   /* ========== Accueil ========== */
   /* ========== Presentation ========== */
+  /* ========== Technologie ========== */
   /* ========== Projet ========== */
   /* ========== Contact ========== */
   /* ========== FOOTER ========== */
@@ -83,6 +84,10 @@
   background-color: #045;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+* body #technologie img {
+  height: 300px;
 }
 
 * body #projets img {
