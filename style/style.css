@@ -124,41 +124,41 @@
   background-color: #045;
 }
 
-* body footer #contact a {
+* body footer #footer a {
   text-decoration: none;
 }
 
-* body footer #contact a #git {
+* body footer #footer a #git {
   fill: #fff;
   -webkit-transform: transition 2s;
           transform: transition 2s;
 }
 
-* body footer #contact a #git:hover {
+* body footer #footer a #git:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   fill: #045;
 }
 
-* body footer #contact a #in {
+* body footer #footer a #in {
   fill: #fff;
   -webkit-transform: transition 2s;
           transform: transition 2s;
 }
 
-* body footer #contact a #in:hover {
+* body footer #footer a #in:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   fill: #045;
 }
 
-* body footer #contact a #twitter {
+* body footer #footer a #twitter {
   fill: #fff;
   -webkit-transform: transition 2s;
           transform: transition 2s;
 }
 
-* body footer #contact a #twitter:hover {
+* body footer #footer a #twitter:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   fill: #045;
